@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="1100" cy="100" r="200" fill="#3b82f6" opacity="0.1"/>
+  <circle cx="100" cy="530" r="150" fill="#8b5cf6" opacity="0.1"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="100%" height="6" fill="url(#accent)"/>
+
+  <!-- Icon background -->
+  <rect x="80" y="180" width="120" height="120" rx="24" fill="#3b82f6" opacity="0.2"/>
+
+  <!-- Category icon (as text) -->
+  <text x="140" y="260" font-size="64" text-anchor="middle" dominant-baseline="middle">📊</text>
+
+  <!-- Tool title -->
+  <text x="80" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="bold" fill="#ffffff">Mock Data Generator</text>
+
+  <!-- Description -->
+  <text x="80" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#94a3b8">Free online tool - No registration required</text>
+
+  <!-- Site branding -->
+  <text x="80" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="bold" fill="#3b82f6">AboxHQ</text>
+  <text x="230" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#94a3b8">• Free Online Tools</text>
+
+  <!-- Bottom border -->
+  <rect x="0" y="624" width="100%" height="6" fill="url(#accent)"/>
+</svg>
